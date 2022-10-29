@@ -13,6 +13,6 @@
     "webpack": "^5.74.0"
   },
   "scripts": {
-    "build": "webpack --mode=production",
+    "build": "webpack --mode=production"
   }
 }
