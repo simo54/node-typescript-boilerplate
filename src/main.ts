@@ -4,9 +4,12 @@ export function normalFunction(params: string): string {
 	return params;
 }
 export class Class {
-	constructor() {}
+	name: string;
+	constructor(name: string) {
+		this.name = name;
+	}
 
-	init() {
+	public something() {
 		console.log('o');
 	}
 }
