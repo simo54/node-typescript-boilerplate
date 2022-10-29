@@ -8,6 +8,7 @@ const config = {
 	entry: './src/main.ts',
 	output: {
 		path: path.resolve(__dirname, 'dist'),
+		libraryTarget: "umd"
 	},
 
 	module: {
